@@ -56,7 +56,6 @@ dmypy.json
 
 # IDEs
 .idea/
-.vscode/
 *.iml
 *.swp
 *.swo
@@ -82,6 +81,7 @@ Thumbs.db
 
 # Model training & audio artifacts
 *.wav
+temp_auto_push.bat
 *.mp3
 *.onnx
 *.pth
@@ -165,3 +165,5 @@ data/memory/
 
 data/llm_usage.json
 gui/data/
+.gitignore
+branch_structure.json

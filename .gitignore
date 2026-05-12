@@ -57,15 +57,12 @@ dmypy.json
 
 # IDEs
 .idea/
-.vscode/
 *.iml
 *.swp
 *.swo
 *~
 
 # Environment files
-.env
-.env.local
 .env.*.local
 .env.backup*
 *.env.backup*
@@ -170,3 +167,8 @@ gui/data/
 PRD-ci-fix-*.md
 
 data/shopping_list.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat

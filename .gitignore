@@ -57,15 +57,12 @@ dmypy.json
 
 # IDEs
 .idea/
-.vscode/
 *.iml
 *.swp
 *.swo
 *~
 
 # Environment files
-.env
-.env.local
 .env.*.local
 .env.backup*
 *.env.backup*
@@ -84,6 +81,7 @@ Thumbs.db
 # Model training & audio artifacts
 *.wav
 *.mp3
+temp_auto_push.bat
 *.onnx
 *.pth
 *.ckpt
@@ -170,3 +168,6 @@ gui/data/
 PRD-ci-fix-*.md
 
 data/shopping_list.json
+.gitignore
+branch_structure.json
+config.bat
